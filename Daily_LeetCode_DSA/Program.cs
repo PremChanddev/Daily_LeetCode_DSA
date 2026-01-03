@@ -6,6 +6,10 @@ internal class Program
     {
         Console.WriteLine("Hello, World!");
 
+        //Day 3: NumOfWays:1411
+        int n = 2;
+        Console.WriteLine("Day 3: " + NumOfWays.NumOfWaysMethod(n));
+
         //Day 2: RepeatedNTimes:961
         int[] nums = { 1, 2, 3, 3 };
         Console.WriteLine("Day 2: " + RepeatedNTimes.RepeatedNTimesMethod(nums));
